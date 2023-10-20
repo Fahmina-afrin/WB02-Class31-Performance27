@@ -1,0 +1,50 @@
+.box1{
+    height:250px;
+    width: 250px;
+    padding:20px;
+    border:5px solid;
+    background-color:aqua;
+    background-image:radial-gradient(circle at bottom,red 10% 20%,yellow,green,blue,aqua,lime,gray)
+
+}
+.box2{
+    height:250px;
+    width: 250px;
+    padding:20px;
+    border:5px solid;
+    background-color:aqua;
+    background-image: repeating-radial-gradient (circle red 10% 20%,yellow 20% 40%,green 40% 60%);
+}
+.box3{
+    height:250px;
+    width: 250px;
+    padding:10x;
+    border-radius:50px;
+    border:5px solid;
+    background-color:aqua;
+    background-image:conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 180deg,blue 270deg,blue 360deg)
+}
+.box4{
+    
+    height:250px;
+    width: 250px;
+    padding:10x;
+    border-radius:50px;
+    border:20px solid;
+    border-image:linear-gradient(rgb(0,225,21),rgb(192,225,219),rgb(225,252,71)) 50;
+    background-color: aqua;
+    background: repeating-conic-gradient(green 10%,rgb(85,0,225) 60deg 20deg);
+    color:beige
+}
+.box5{
+    height: 200px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 21px 0 rgba(0,0,0,0.20);
+}
+img{
+    width:100%;
+}
+p{
+    text-align: center;
+
+}
